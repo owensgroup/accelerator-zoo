@@ -17,6 +17,7 @@ representing the following accelerators:
 - [SPADE](https://dl.acm.org/doi/10.1145/3579371.3589054)
 - [Tensaurus](https://ieeexplore.ieee.org/document/9065579)
 - [TPUv1](https://arxiv.org/abs/1704.04760)
+- [FEASTA](https://dl.acm.org/doi/10.1145/3620666.3651336)
 
 We welcome contributions of other designs from the community.
 
@@ -171,6 +172,7 @@ of many people over the course of many years, including:
 - Yingchen Wang
 - Frederic Wu
 - Xinrui Wu
+- Sabrina Yarzada
 - Yan Zhu
 
 We would also like to thank the following people, whose insights allowed us to
