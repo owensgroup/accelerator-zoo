@@ -13,6 +13,7 @@ representing the following accelerators:
 - [Gamma](https://dl.acm.org/doi/pdf/10.1145/3445814.3446702)
 - [GraphDynS](https://dl.acm.org/doi/10.1145/3352460.3358318)
 - [Graphicionado](https://dl.acm.org/doi/10.5555/3195638.3195707)
+- [NV-STC](https://arxiv.org/pdf/2104.08378)
 - [OuterSPACE](https://ieeexplore.ieee.org/document/8327050)
 - [RM-STC](https://dl.acm.org/doi/abs/10.1145/3613424.3623775)
 - [SIGMA](https://ieeexplore.ieee.org/document/9065523)
