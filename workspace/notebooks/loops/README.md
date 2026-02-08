@@ -4,8 +4,7 @@ Variants:
 - Original
 - Thread-Mapped
 - Group-Mapped
-- Work-Oriented
-- Merge Path
+- Work-Oriented (Merge Path)
 
 Loops GitHub repo: https://github.com/gunrock/loops
 
