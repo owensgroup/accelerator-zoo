@@ -1,12 +1,10 @@
-# TeAAL specifications on variants of Loops' SpMV implementations
+# TeAAL specifications on Loops
+This directory contains TeAAL specifications written based on different load balance strategy from [Loops](https://github.com/gunrock/loops).
 
 Variants:
-- Original
-- Thread-Mapped
-- Group-Mapped
-- Work-Oriented (Merge Path)
-
-Loops GitHub repo: https://github.com/gunrock/loops
+- SpMV: Original = Thread-Mapped, Group-Mapped, Work-Oriented = Merge Path (WIP)
+- SpMM: Thread-Mapped, Group-Mapped
+- SpGEMM: Thread-Mapped, Group-Mapped
 
 Terminology (From [A Programming Model for GPU Load Balancing](https://arxiv.org/abs/2301.04792)):
 - Work item/atom: A single unit of work that is to be scheduled onto the GPU. We assume that all work atoms have an equal cost during execution.
