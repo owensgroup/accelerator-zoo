@@ -38,6 +38,16 @@ def check_matmul(A, B, Z):
 
     print("Result correct?", Z_MN == Z_MN_corr)
 
+def check_matvecmul(A_MK, B_K, Z_M):
+    Z_M_corr = Tensor(rank_ids=["M"], name="Z")
+    z_m = Z_M_corr.getRoot()
+    a_m = A_MK.getRoot()
+    b_k = B_K.getRoot()
+    for m_pos, (m, (z_ref, a_k)) in enumerate(z_m << a_m):
+        for k_pos, (k, (a_val, b_val)) in enumerate(a_k & b_k):
+            z_ref += a_val * b_val
+    print("Result correct?", Z_M == Z_M_corr)
+
 def check_conv(I, F, O, stride=1):
     # Note: I, F, and O should be un-partitioned
 
